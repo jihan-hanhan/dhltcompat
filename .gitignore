@@ -1,0 +1,45 @@
+# ---- Gradle ----
+.gradle/
+build/
+
+# keep the wrapper itself in version control
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# generated local properties
+local.properties
+gradle-local.properties
+
+# ---- Minecraft / run dirs ----
+run/
+eclipse/
+out/
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# ---- OS ----
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+*.lnk
+.DS_Store
+
+# ---- Editor temp ----
+*.swp
+*.swo
+*~
+*.bak
+
+# ---- Misc ----
+*.log
+hs_err_pid*.log

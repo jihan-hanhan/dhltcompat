@@ -1,0 +1,14 @@
+[
+  {
+    "modid": "dhltcompat",
+    "name": "DH LittleTiles Compat",
+    "description": "Renders LittleTiles blocks with their real colors in Distant Horizons LODs.",
+    "version": "0.3.0",
+    "mcversion": "1.12.2",
+    "url": "",
+    "authorList": ["Trae AI"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": []
+  }
+]

@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+    id 'xyz.wagyourtail.unimined' version '1.4.7-kappa'
+}
+
+version = '0.3.0'
+group = 'com.dhlt'
+
+base {
+    archivesName.set('dhltcompat')
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+unimined.minecraft {
+    version "1.12.2"
+
+    mappings {
+        mcp("stable", "39-1.12")
+    }
+
+    cleanroom {
+        loader "0.3.24-alpha"
+    }
+}
+
+repositories {
+    maven {
+        name 'AliyunPublic'
+        url 'https://maven.aliyun.com/repository/public'
+    }
+    mavenCentral()
+    maven {
+        name 'CleanroomMC'
+        url 'https://maven.cleanroommc.com'
+    }
+}
+
+def exDir = "${rootDir}/../.ex"
+
+dependencies {
+    compileOnly files(
+            "${exDir}/DistantHorizons-3.3.3-1.12.2-forge.jar",
+            "${exDir}/LittleTiles_v1.5.58_mc1.12.2.jar",
+            "${exDir}/CreativeCore_v1.10.71_mc1.12.2.jar",
+            "${exDir}/CTM-MC1.12.2-1.0.2.31.jar"
+    )
+    compileOnly "com.cleanroommc:sponge-mixin:0.20.10+mixin.0.8.7"
+    compileOnly 'org.jetbrains:annotations:24.0.0'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

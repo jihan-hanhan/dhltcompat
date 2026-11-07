@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "variant=0": { "model": "dhltcompat:palette_8_0" },
+    "variant=1": { "model": "dhltcompat:palette_8_1" },
+    "variant=2": { "model": "dhltcompat:palette_8_2" },
+    "variant=3": { "model": "dhltcompat:palette_8_3" },
+    "variant=4": { "model": "dhltcompat:palette_8_4" },
+    "variant=5": { "model": "dhltcompat:palette_8_5" },
+    "variant=6": { "model": "dhltcompat:palette_8_6" },
+    "variant=7": { "model": "dhltcompat:palette_8_7" },
+    "variant=8": { "model": "dhltcompat:palette_8_8" },
+    "variant=9": { "model": "dhltcompat:palette_8_9" },
+    "variant=10": { "model": "dhltcompat:palette_8_10" },
+    "variant=11": { "model": "dhltcompat:palette_8_11" },
+    "variant=12": { "model": "dhltcompat:palette_8_12" },
+    "variant=13": { "model": "dhltcompat:palette_8_13" },
+    "variant=14": { "model": "dhltcompat:palette_8_14" },
+    "variant=15": { "model": "dhltcompat:palette_8_15" }
+  }
+}
